@@ -5,3 +5,30 @@
 .navbar-brand {
   color: var(--blue);
 }
+
+.recruit__title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .recruit {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recruit__info {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .recruit__title {
+    text-align: left;
+  }
+}
