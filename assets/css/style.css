@@ -1,0 +1,7 @@
+:root {
+  --blue: rgb(0, 113, 188);
+}
+
+.navbar-brand {
+  color: var(--blue);
+}
